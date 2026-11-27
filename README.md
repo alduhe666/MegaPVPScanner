@@ -20,8 +20,6 @@ Está pensado para usarse en el navegador, sin servidor propio: la imagen se pro
 - **Comparación**: selecciona una o más entradas de la misma especie y abre un análisis en PvPoke con el Rank `#1` y los IVs elegidos.
 - **Enlaces a PvPoke**: matriz con un solo grupo de Pokémon, sin duplicados, usando los alias y los tokens de IVs/nivel de PvPoke.
 
-> La **Mega Nivel 4 / Mega Energía** se muestra como información de juego, pero no se usa en los cálculos: no hay nivel `52` ni bonos extra en los rankings.
-
 ---
 
 ## Uso
