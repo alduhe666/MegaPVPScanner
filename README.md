@@ -11,8 +11,8 @@ Está pensado para usarse en el navegador, sin servidor propio: la imagen se pro
 - **Escáner de imagen**: sube una captura del Pokémon y la app lee el nombre y estima los IVs mediante OCR (Tesseract.js) y análisis de las barras de IV por píxeles.
 - **Ajuste manual**: si la lectura no es fiable, los IVs se pueden corregir con deslizadores y botones (`0`–`15`).
 - **Detección de Pokémon oscuro**: si se marca como oscuro/purificado, los IVs efectivos se calculan con `+2` por stat, con tope en `15`.
-- **Megas y Primals**: incluye formas clásicas, formas de Leyendas Z-A y formas Primal, con tipos, stats y sprites embebidos.
-- **Rankings por liga**: evalúa las 4.096 combinaciones de IVs para cada liga y nivel (`50`/`51`) usando `atk × def × hp`, con desempate por PS, defensa y ataque.
+- **Megas y Primals**: incluye formas clásicas, formas de Leyendas Z-A y formas Primal, con tipos, stats y sprites integrados.
+- **Rankings por liga**: evalúa las 4.096 combinaciones de IVs para cada liga y nivel (`50`/`51`) usando `atk × def × hp`.
 - **Tablas Top**: `Top 10 / 25 / 50 / 100`, ordenables por columnas, con la fila del usuario resaltada y el puesto CMP.
 - **CMP**: muestra el puesto por ataque real dentro del Top 100 (`#X`), o `+Top 100` / `-Top 100` cuando el ataque supera o queda por debajo del Top 100.
 - **Barra de PC por nivel**: deslizador del nivel `1` al `51` con la misma fórmula de PC y los IVs efectivos.
